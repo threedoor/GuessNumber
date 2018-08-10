@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>猜数字</title>
+    <link href="guess-number.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <h1>猜数字</h1>
+
+    <p>猜一个随机数，范围是1到100之间。十次机会，每次会根据猜的数字提示偏高或者偏低哦~</p>
+    <h2>开始游戏吧:</h2>
+
+    <div class="form">
+        <input type="text" id="guessField" class="guessField" placeholder="输入一个数字">
+        <input type="submit" value="猜数字" class="guessSubmit">
+    </div>
+    <div class="resultParas">
+        <p class="guesses"></p>
+        <p class="lastResult"></p>
+        <p class="point"></p>
+        <p class="lowOrHi"></p>
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
